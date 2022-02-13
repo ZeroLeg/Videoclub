@@ -1,0 +1,32 @@
+###
+
+GET http://localhost:3000/api/peliculas
+
+###
+
+POST http://localhost:3000/api/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "Batman",
+    "descripcion": "Superheroe",
+    "genero": "Superheroes"
+}
+
+### 
+
+GET http://localhost:3000/api/peliculas/
+
+###
+
+PUT http://localhost:3000/api/peliculas/
+Content-Type: application/json
+
+{
+    "titulo": "Ryan Ray",
+    "descripcion": "Snr. Developer",
+    "genero": "Rome"
+}
+
+###
+DELETE http://localhost:3000/api/peliculas/
